@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-sample
+
+sample.secret: adefault
+
+encrypt:
+  key: austin
+#  keyStore:
+#    location: classpath:/server.jks
+#    password: letmein
+#    alias: config-sample
+#    secret: letmein

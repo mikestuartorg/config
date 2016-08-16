@@ -1,0 +1,9 @@
+---
+instances: 1
+memory: 512M
+applications:
+  - name: config-sample
+    services:
+      - my-config-server
+    env:
+      SPRING_PROFILES_ACTIVE: encryption
